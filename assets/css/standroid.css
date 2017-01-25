@@ -1,0 +1,105 @@
+/* Standroid ~ Created by Saumitro Dasgupta on March 26, 2015. */
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700,400italic,300italic);
+
+/* Base Theme: Stanford Light */
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  border-top: 5px solid #8C1515;
+  color: #555;
+}
+
+a {
+  color: #8C1515;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: 300;
+  letter-spacing: -0.04em;
+  font-size: 3em;
+  line-height: 1.3em;
+}
+
+h2 {
+  font-size: 1.8em;
+  letter-spacing: -0.02em;
+  line-height: 1.2em;
+  margin: 0.7em 0 0.5em;
+}
+
+h3 {
+  font-size: 1.3em;
+  font-weight: 600;
+  line-height: 1.3em;
+  margin: 0.9em 0 0.5em;
+}
+
+h4 {
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 1.3em;
+  margin: 1em 0 .5em;
+}
+
+.page-heading {
+  margin-top:0;
+}
+
+#header {
+  background-color: #F8F7F2;
+  border-bottom: 1px solid #E9E6DF;
+  margin-bottom: 50px;
+  padding: 15px;
+}
+
+#header-pic {
+  text-align:center;
+}
+
+
+#sidebar {
+  background-color: #E9E6DF;
+  border-radius: 5px;
+  color: #696969;
+  padding: 20px;
+}
+
+#sidebar a {
+  color: #5F574F;
+}
+
+.menu-item-current {
+  color: #8C1515 !important;
+  font-weight: 500;
+}
+
+.profiles img {
+  border-radius: 10px;
+}
+
+.profiles .row:not(:last-child) {
+  margin-bottom:30px;
+}
+.profiles h4 {
+  margin-top:0;
+}
+
+#footer {
+  background-color: #F8F7F2;
+  border-top: 1px solid #E9E6DF;
+  border-bottom: 1px solid #E9E6DF;
+  margin-top: 20px;
+  padding: 15px;
+  font-size:12px;
+}
+#footer a {
+  color: #8A6D5A;
+}
